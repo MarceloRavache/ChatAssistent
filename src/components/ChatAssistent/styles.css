@@ -1,0 +1,32 @@
+.chat {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.chat__bar {
+    width: 400px;
+    height: 40px;
+    background-color: #000;
+    color: white;
+}
+.chat__content {
+    display: none;
+    width: 400px;
+    height: 400px;
+    background-color: #f00;
+}
+
+.chat_input {
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+
+.chat_history {
+    width: 300px;
+    height: 370px;
+}
+
+.chat_input:focus {
+    border: none;
+}
